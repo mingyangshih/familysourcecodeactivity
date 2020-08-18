@@ -13,16 +13,22 @@ body{
   background: rgb(143,219,231);
   // background-image: url('../img/bg.jpg');
   font-family: "微軟正黑體", "Microsoft JhengHei";
+  .bgSetting{
+    width:100%;
+  }
 }
-.mainImg{
-  max-width: 100%;
-  margin:0 auto;
+.cooperateMerchant{
+  .bgSetting{
+    width:100%;
+  }
 }
 .bgSettiing{
   max-width: 100%;
   height: auto;
   img{
     max-width: 100%;
+    -ms-width: 840px;
+    width: 100%;
   }
 }
 .title{
